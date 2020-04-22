@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.jimi {
+  align-items: center;
+  color: coral;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: 400;
+  text-decoration: overline;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-bottom: 10px solid rgb(0, 0, 255);
+}
+
+.recovered {
+  border-bottom: 10px solid rgb(0, 255, 0);
+}
+
+.deaths {
+  border-bottom: 10px solid rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
