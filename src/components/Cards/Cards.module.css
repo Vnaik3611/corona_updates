@@ -6,10 +6,20 @@
 }
 .jimi {
   align-items: center;
-  color: coral;
+  color: mediumvioletred;
   font-family: "Arial Black", Gadget, sans-serif;
   font-weight: 400;
   text-decoration: overline;
+  text-decoration-color: darkslategray;
+}
+
+.intro {
+  text-align: center;
+  color: darkorange;
+  font-family: Franklin Gothic Medium;
+  font-weight: 200;
+  font-size: x-large;
+  font-style: italic;
 }
 
 .card {
@@ -17,11 +27,11 @@
 }
 
 .infected {
-  border-bottom: 10px solid rgb(0, 0, 255);
+  border-bottom: 10px solid mediumblue;
 }
 
 .recovered {
-  border-bottom: 10px solid rgb(0, 255, 0);
+  border-bottom: 10px solid chartreuse;
 }
 
 .deaths {
