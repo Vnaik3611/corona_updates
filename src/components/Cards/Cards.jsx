@@ -12,11 +12,19 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.intro}>
+        <p>
+          "This site is created to hail the efforts made by Doctors and all the
+          front line workers to protect our community. Lets STAY HOME and
+          support our brave HEROS."
+        </p>
+      </div>
       <div className={styles.jimi}>
-        <h1>We Are In This Together!</h1>
+        <h1>We Are In This Together</h1>
         <h1>Stay HOME - Stay SAFE</h1>
         <br></br>
       </div>
+
       <Grid container spacing={3} justify="center">
         <Grid
           item
