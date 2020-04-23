@@ -4,8 +4,17 @@
   width: 65%;
 }
 
+.copy {
+  display: flex;
+  color: Crimson;
+  background-color: darkslategrey;
+}
+
 @media only screen and (max-width: 770px) {
   .container {
+    width: 100%;
+  }
+  .copy {
     width: 100%;
   }
 }
